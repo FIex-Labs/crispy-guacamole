@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crispy-guacamole/static/css/main.491d7068.css",
+    "main.js": "/crispy-guacamole/static/js/main.0062e62b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/crispy-guacamole/index.html",
+    "main.491d7068.css.map": "/crispy-guacamole/static/css/main.491d7068.css.map",
+    "main.0062e62b.js.map": "/crispy-guacamole/static/js/main.0062e62b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491d7068.css",
+    "static/js/main.0062e62b.js"
+  ]
+}
