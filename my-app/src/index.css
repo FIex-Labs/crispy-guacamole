@@ -7,6 +7,10 @@
     #ffc75f,
     #f9f871
   );
+  --section-width: 1000px;
+  --button-text: 14px;
+  --section-color: #ffffff;
+  --accent-color: #76b5c5;
 }
 
 @keyframes bg-animation {
@@ -25,12 +29,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: var(--bg-gradient);
-  background-size: 400%;
-  animation: bg-animation 25s infinite alternate;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+div.subsection {
+  display: grid;
+  grid-template-columns: 333px 333px 333px;
 }
