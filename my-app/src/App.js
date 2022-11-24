@@ -1,15 +1,27 @@
 import "./App.css";
-import NavBar from "./Components/NavigationBar";
-import PillButton from "./Components/PillButton";
+import LandingPage from "./Pages/LandingPage";
+import { useEffect } from "react";
 function App() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  useEffect(() => {
+    const hiddenElements = document.querySelectorAll(".hidden");
+    console.log();
+    hiddenElements.forEach((el) => {
+      observer.observe(el);
+    });
+  });
   return (
     <div>
-      <NavBar />
-      <section>
-        <h1> Simplified Database Setup</h1>
-        <p> Get a database setup in minutes, using natural language text. </p>
-        <PillButton> Contact </PillButton>
-      </section>
+      <LandingPage />
       <section>
         <h1> Easy to use </h1>
         <p>
