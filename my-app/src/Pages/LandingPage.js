@@ -1,5 +1,7 @@
 import NavBar from "../Components/NavigationBar";
 import PillButton from "../Components/PillButton";
+import "../Styles/LandingPage.css";
+import FrontPageDemo from "../Media/FrontPageDemo.svg";
 
 export default function LandingPage() {
   return (
@@ -33,6 +35,9 @@ export default function LandingPage() {
             Contact{" "}
           </PillButton>
         </div>
+      </div>
+      <div className="DemoBox">
+        <img src={FrontPageDemo} alt="Product Demo"></img>
       </div>
     </section>
   );
