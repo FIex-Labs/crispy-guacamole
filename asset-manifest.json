@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/crispy-guacamole/static/css/main.5b25ffea.css",
-    "main.js": "/crispy-guacamole/static/js/main.2faab58d.js",
+    "main.js": "/crispy-guacamole/static/js/main.21ddf9c0.js",
     "static/js/787.28cb0dcd.chunk.js": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js",
-    "static/media/FrontPage.svg": "/crispy-guacamole/static/media/FrontPage.bb1c161218b1fe2dcdf11ad85fc93a0b.svg",
+    "static/media/FrontPageDemo.svg": "/crispy-guacamole/static/media/FrontPageDemo.e57e30981a29b45e2bb55fdda3a8f77a.svg",
     "index.html": "/crispy-guacamole/index.html",
     "main.5b25ffea.css.map": "/crispy-guacamole/static/css/main.5b25ffea.css.map",
-    "main.2faab58d.js.map": "/crispy-guacamole/static/js/main.2faab58d.js.map",
+    "main.21ddf9c0.js.map": "/crispy-guacamole/static/js/main.21ddf9c0.js.map",
     "787.28cb0dcd.chunk.js.map": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b25ffea.css",
-    "static/js/main.2faab58d.js"
+    "static/js/main.21ddf9c0.js"
   ]
 }
