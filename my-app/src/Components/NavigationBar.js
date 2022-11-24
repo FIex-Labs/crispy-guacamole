@@ -1,27 +1,21 @@
 import React from "react";
 import "../Styles/NavBar.css";
+import FlexLabsPng from "../Media/flexlabs.png";
 
 export default function NavBar() {
   return (
-    // <ul>
-    //   <li>
-    //     <button className="header_button">Pricing</button>
-    //   </li>
-    //   <li>
-    //     <button className="header_button">Contact</button>
-    //   </li>
-    // </ul>
     <ul>
       <li>
-        <a href="#home">Home</a>
+        <img style={{ width: "45px" }} src={FlexLabsPng} alt="Logo" />
+      </li>
+      <li>
+        <a href="#home">Pricing</a>
       </li>
       <li>
         <a href="#contact">Contact</a>
       </li>
       <li>
-        <a class="active" href="#about">
-          About
-        </a>
+        <a href="#about">Use Cases</a>
       </li>
     </ul>
   );
