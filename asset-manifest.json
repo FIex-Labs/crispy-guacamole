@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/crispy-guacamole/static/css/main.729403b5.css",
-    "main.js": "/crispy-guacamole/static/js/main.877069e4.js",
+    "main.css": "/crispy-guacamole/static/css/main.8eac020f.css",
+    "main.js": "/crispy-guacamole/static/js/main.d73b92df.js",
     "static/js/787.28cb0dcd.chunk.js": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/crispy-guacamole/index.html",
-    "main.729403b5.css.map": "/crispy-guacamole/static/css/main.729403b5.css.map",
-    "main.877069e4.js.map": "/crispy-guacamole/static/js/main.877069e4.js.map",
+    "main.8eac020f.css.map": "/crispy-guacamole/static/css/main.8eac020f.css.map",
+    "main.d73b92df.js.map": "/crispy-guacamole/static/js/main.d73b92df.js.map",
     "787.28cb0dcd.chunk.js.map": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.729403b5.css",
-    "static/js/main.877069e4.js"
+    "static/css/main.8eac020f.css",
+    "static/js/main.d73b92df.js"
   ]
 }
