@@ -1,4 +1,5 @@
-button.pill_button {
+button.pill {
+  font-family: "Inter";
   border: none;
   color: black;
   padding: 5px 15px;
@@ -8,10 +9,10 @@ button.pill_button {
   font-size: var(--button-text);
   margin: 4px 2px;
   cursor: pointer;
-  background: var(--accent-color);
   dislay: flex;
   border-radius: 30px;
 }
-button.pill_button:hover {
+
+button.pill:hover {
   opacity: 0.8;
 }
