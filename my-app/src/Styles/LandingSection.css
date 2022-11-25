@@ -42,3 +42,7 @@ p.title_description {
   left: 690px;
   top: 20px;
 }
+
+.DemoImg {
+  z-index: 0;
+}
