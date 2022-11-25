@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/crispy-guacamole/static/css/main.5b25ffea.css",
-    "main.js": "/crispy-guacamole/static/js/main.21ddf9c0.js",
-    "static/js/787.28cb0dcd.chunk.js": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js",
-    "static/media/FrontPageDemo.svg": "/crispy-guacamole/static/media/FrontPageDemo.e57e30981a29b45e2bb55fdda3a8f77a.svg",
-    "index.html": "/crispy-guacamole/index.html",
-    "main.5b25ffea.css.map": "/crispy-guacamole/static/css/main.5b25ffea.css.map",
-    "main.21ddf9c0.js.map": "/crispy-guacamole/static/js/main.21ddf9c0.js.map",
-    "787.28cb0dcd.chunk.js.map": "/crispy-guacamole/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.c0290bc0.css",
+    "main.js": "/static/js/main.ddadac40.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/FrontPageDemoCheck.svg": "/static/media/FrontPageDemoCheck.e57e30981a29b45e2bb55fdda3a8f77a.svg",
+    "index.html": "/index.html",
+    "main.c0290bc0.css.map": "/static/css/main.c0290bc0.css.map",
+    "main.ddadac40.js.map": "/static/js/main.ddadac40.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b25ffea.css",
-    "static/js/main.21ddf9c0.js"
+    "static/css/main.c0290bc0.css",
+    "static/js/main.ddadac40.js"
   ]
 }
