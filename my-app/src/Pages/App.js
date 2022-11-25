@@ -1,7 +1,8 @@
-import "./App.css";
-import LandingPage from "./Pages/LandingPage";
+import "../Styles/App.css";
+import LandingPage from "../Sections/LandingSection";
 import { useEffect } from "react";
-function App() {
+
+export default function App() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -72,5 +73,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
