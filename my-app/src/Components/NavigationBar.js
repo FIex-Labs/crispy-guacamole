@@ -6,24 +6,24 @@ export default function NavBar() {
   return (
     <ul>
       <li style={{ padding: "0px" }}>
-        <Link to="/pricing" preventScrollReset={true}>
+        <Link to="/pricing">
           <img style={{ width: "45px" }} src={FlexLabsPng} alt="Logo" />
         </Link>
       </li>
       <li>
-        <Link className="text" to="/pricing" preventScrollReset={true}>
+        <Link className="text" to="/pricing">
           {" "}
           Pricing
         </Link>
       </li>
       <li>
-        <Link className="text" to="/contact" preventScrollReset={true}>
+        <Link className="text" to="/contact">
           {" "}
           Contact
         </Link>
       </li>
       <li>
-        <Link className="text" to="/usage" preventScrollReset={true}>
+        <Link className="text" to="/usage">
           {" "}
           Use Cases
         </Link>
