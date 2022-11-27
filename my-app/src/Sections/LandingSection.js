@@ -7,15 +7,7 @@ export default function LandingPage() {
   return (
     <section>
       <NavBar />
-      <div
-        className="hidden"
-        style={{
-          position: "absolute",
-          width: "580px",
-          height: "260px",
-          top: "300px",
-        }}
-      >
+      <div className="title_box ">
         <h1 className="title_text"> Databases made simple.</h1>
         <p className="title_description">
           Set up a database in minutes, using natural language.
