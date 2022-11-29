@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --section-width: 1250px;
-  --section-height: 900px;
+  --section-height: 100vh;
   --button-text: 14px;
   --section-color: #ffffff;
   --accent-color: #76b5c5;
   --left-margin: 100px;
+  --mobile_padding: 5%;
 }
 
 body {
@@ -31,15 +32,4 @@ code {
 
 .show {
   opacity: 1;
-}
-
-section {
-  background-color: var(--section-color);
-  display: flex;
-  flex-direction: column;
-  width: var(--section-width);
-  height: var(--section-height);
-  background: #ffffff;
-  margin: auto;
-  position: relative;
 }

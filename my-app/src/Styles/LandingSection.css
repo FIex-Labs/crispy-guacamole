@@ -40,3 +40,14 @@ p.title_description {
 .DemoImg {
   z-index: 0;
 }
+
+section.Desktop {
+  background-color: var(--section-color);
+  display: flex;
+  flex-direction: column;
+  width: var(--section-width);
+  height: var(--section-height);
+  background: #ffffff;
+  margin: auto;
+  position: relative;
+}
