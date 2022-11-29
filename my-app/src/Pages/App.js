@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import "../Styles/App.css";
-import LandingPage from "../Sections/LandingSection";
-import NaturalLanguage from "../Sections/NaturalLanguage";
-import AutomaticProvisioning from "../Sections/AutomaticProvisioning";
-import UseWithExisting from "../Sections/UseWithExisting";
-import Footer from "../Sections/Footer";
+import LandingPage from "../DesktopSections/LandingSection";
+import NaturalLanguage from "../DesktopSections/NaturalLanguage";
+import AutomaticProvisioning from "../DesktopSections/AutomaticProvisioning";
+import UseWithExisting from "../DesktopSections/UseWithExisting";
+import Footer from "../DesktopSections/Footer";
 
 export default function App() {
   const observer = new IntersectionObserver((entries) => {
