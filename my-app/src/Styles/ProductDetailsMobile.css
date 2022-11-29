@@ -1,0 +1,63 @@
+.SectionHolder_Mobile {
+  width: calc(100% - (2 * var(--mobile_padding)));
+}
+
+.Section {
+  width: calc(100% - (2 * var(--mobile_padding)));
+}
+
+.Section_Header_Text_Mobile {
+  width: calc(100% - (2 * var(--mobile_padding)));
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Section_Header_Description_Mobile {
+  width: calc(100% - (2 * var(--mobile_padding)));
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.Section_Text_Mobile {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 550;
+  margin: 0px 0px 0px 0px;
+}
+
+section.Product_Info_Mobile {
+  height: 100vh;
+}
+
+.Info_Page_Mobile {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  padding: var(--mobile_padding);
+}
+
+p.Section_Header_Text_Mobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.paragraph_Mobile {
+  font-size: 20px;
+  line-height: 1.5;
+  width: calc(100% - (2 * var(--mobile_padding)));
+}
