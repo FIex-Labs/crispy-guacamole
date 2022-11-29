@@ -6,6 +6,7 @@ ul {
   background-color: #ffffff;
   align-content: start;
   justify-self: start;
+  width: 100%;
 }
 
 li {
