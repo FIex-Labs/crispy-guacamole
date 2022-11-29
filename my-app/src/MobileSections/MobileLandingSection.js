@@ -8,15 +8,15 @@ export default function MobileLandingPage() {
       style={{
         width: "100vw",
         alignItems: "center",
-        height: "100vh",
+        height: "840px",
         padding: "5%",
       }}
     >
-      <NavBar style={{ width: "100%" }} />
+      <NavBar style={{ width: "100%", fontSize: "18px" }} />
 
       <div style={{ fontFamily: "Inter", marginBottom: "20px" }}>
         <h1
-          style={{ fontSize: "40px", fontWeight: "500", marginBottom: "20px" }}
+          style={{ fontSize: "42px", fontWeight: "500", marginBottom: "20px" }}
         >
           {" "}
           Databases made simple.
@@ -47,7 +47,7 @@ export default function MobileLandingPage() {
         </div>
       </div>
 
-      <img style={{ width: "90%" }} src={FrontPageDemo} alt="Product Demo" />
+      <img style={{ width: "100%" }} src={FrontPageDemo} alt="Product Demo" />
     </section>
   );
 }
