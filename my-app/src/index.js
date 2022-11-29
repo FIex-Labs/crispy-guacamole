@@ -4,18 +4,37 @@ import "./index.css";
 import App from "./Pages/App.js";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile,
+} from "react-device-detect";
+import MobileApp from "./Pages/MobileApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/contact" element={<p>contact</p>} />
-        <Route path="/pricing" element={<p>pricing</p>} />
-        <Route path="/usage" element={<p>use cases</p>} />
-      </Routes>
-    </BrowserRouter>
+    <BrowserView>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/contact" element={<p>contact</p>} />
+          <Route path="/pricing" element={<p>pricing</p>} />
+          <Route path="/usage" element={<p>use cases</p>} />
+        </Routes>
+      </BrowserRouter>
+    </BrowserView>
+    <MobileView>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MobileApp />} />
+          <Route path="/contact" element={<p>contact</p>} />
+          <Route path="/pricing" element={<p>pricing</p>} />
+          <Route path="/usage" element={<p>use cases</p>} />
+        </Routes>
+      </BrowserRouter>
+    </MobileView>
   </React.StrictMode>
 );
 
