@@ -36,9 +36,8 @@ export default function NaturalLanguage() {
           <div className="hidden Section">
             <h1 className="Section_Text">Data models that fit</h1>{" "}
             <p className="paragraph">
-              {" "}
-              We'll help you pick a data model that best fits your use case.
-              Stress less about which data model to use.
+              The choice of which database to use can be tough. We'll analyze
+              your use cases and find the best one for you.
             </p>
           </div>
           <div className="hidden Section">
@@ -48,9 +47,9 @@ export default function NaturalLanguage() {
             </h1>{" "}
             <p className="paragraph">
               {" "}
-              Based on your input, we'll come up with table schemas to fit your
-              data. We give you the flexibility to refine and tweak it to your
-              individual needs.
+              Tell us about your data and what it looks like. Our product will
+              give you a head start by generating a schema that best fits your
+              data. You can modify the schema afterwards to fit your ideas.
             </p>
           </div>
         </div>
