@@ -1,18 +1,13 @@
 import "../Styles/ProductDetailsMobile.css";
-
+import { Section2Header, Section2HeaderDesc } from "../Components/TextContent";
 export default function MobileAutomaticProvisioning() {
   return (
     <section className="Info_Page_Mobile">
       <h1 className="Section_Header_Text_Mobile">
-        {" "}
-        Automatic resource provisioning{" "}
+        <Section2Header />
       </h1>
       <p className="Section_Header_Description_Mobile">
-        {" "}
-        Confused about all the configuration options when hosting a database in
-        the cloud? Based on the database details, as well as your preferences,
-        we come up with the a specific cloud configuration tailored to your
-        needs.
+        <Section2HeaderDesc />
       </p>
       <div className="SectionHolder_Mobile">
         <div className="hidden Section_Mobile">

@@ -1,6 +1,6 @@
 import "../Styles/ProductDetailsMobile.css";
 import DB_Icon from "../Media/DB.svg";
-
+import { Section3Header, Section3HeaderDesc } from "../Components/TextContent";
 export default function MobileUseWithExisting() {
   return (
     <div style={{ backgroundColor: "#F4F4F4" }}>
@@ -10,13 +10,11 @@ export default function MobileUseWithExisting() {
       >
         <div>
           <h1 className="Section_Header_Text_Mobile">
-            Compatible with existing databases{" "}
+            <Section3Header />
           </h1>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p className="Section_Header_Description_Mobile">
-              If you have an existing database, it is easy to connect your
-              database and use our platform. We provide a suite of tools to help
-              your team work with the database in an easy manner.
+              <Section3HeaderDesc />
             </p>
             {/* <img
             style={{ marginLeft: "200px", marginTop: "-100px" }}

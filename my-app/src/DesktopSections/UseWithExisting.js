@@ -1,19 +1,17 @@
 import "../Styles/ProductDetails.css";
 import DB_Icon from "../Media/DB.svg";
-
+import { Section3Header, Section3HeaderDesc } from "../Components/TextContent";
 export default function UseWithExisting() {
   return (
     <div style={{ backgroundColor: "#F4F4F4" }}>
       <section style={{ backgroundColor: "#F4F4F4" }} className="Info_Page">
         <div>
           <h1 className="Section_Header_Text">
-            Compatible with existing databases{" "}
+            <Section3Header />
           </h1>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p className="Section_Header_Description">
-              If you have an existing database, it is easy to connect your
-              database and use our platform. We provide a suite of tools to help
-              your team work with the database in an easy manner.
+              <Section3HeaderDesc />
             </p>
             {/* <img
             style={{ marginLeft: "200px", marginTop: "-100px" }}

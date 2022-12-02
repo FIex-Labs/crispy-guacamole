@@ -1,19 +1,37 @@
 import "../Styles/ProductDetails.css";
+import RotatingDeck from "../Components/RotatingDeck";
+import RedisLogo from "../Media/Logos/RedisTextLogo.svg";
+import PostgresLogo from "../Media/Logos/PostgreSQLLogo.svg";
 
+import { Section1Header, Section1HeaderDesc } from "../Components/TextContent";
 export default function NaturalLanguage() {
   return (
     <div style={{ backgroundColor: "#F4F4F4" }}>
       <section className="Info_Page" style={{ backgroundColor: "#F4F4F4" }}>
         <h1 className="Section_Header_Text">
-          {" "}
-          Powerful database abstractions{" "}
+          <Section1Header />
         </h1>
         <p className="Section_Header_Description">
-          {" "}
-          Flex Labs will handle the complicated database details, such as data
-          models and schemas. This leaves you with more bandwidth to focus on
-          things the that matter.{" "}
+          <Section1HeaderDesc />
         </p>
+        <RotatingDeck>
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+          <img className="Deck" src={RedisLogo} alt="RedisLogo" />
+          <img className="Deck" src={PostgresLogo} alt="PostgresLogo" />
+        </RotatingDeck>
         <div>
           <div className="hidden Section">
             <h1 className="Section_Text">Data models that fit</h1>{" "}
