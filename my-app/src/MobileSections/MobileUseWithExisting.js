@@ -1,6 +1,6 @@
 import "../Styles/ProductDetailsMobile.css";
-import DB_Icon from "../Media/DB.svg";
 import { Section3Header, Section3HeaderDesc } from "../Components/TextContent";
+
 export default function MobileUseWithExisting() {
   return (
     <div style={{ backgroundColor: "#F4F4F4" }}>

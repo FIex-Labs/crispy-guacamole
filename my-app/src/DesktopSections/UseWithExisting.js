@@ -1,5 +1,5 @@
 import "../Styles/ProductDetails.css";
-import DB_Icon from "../Media/DB.svg";
+
 import { Section3Header, Section3HeaderDesc } from "../Components/TextContent";
 export default function UseWithExisting() {
   return (
