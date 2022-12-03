@@ -15,7 +15,7 @@ export default function RotatingDeck(props) {
         {props.children.map((img, i) => {
           return (
             <li
-              id={i}
+              key={i}
               className="AnimateDeckItem"
               style={{ margin: "25px 25px 25px 25px", display: "block" }}
             >
