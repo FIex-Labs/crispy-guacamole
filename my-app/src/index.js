@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import reportWebVitals from "./reportWebVitals";
-import { HashRouter, BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 
 // Import Pages
 import App from "./pages/App.js";
 import MobileApp from "./pages/MobileApp";
+
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
 import UseCases from "./pages/UseCases";
@@ -19,12 +19,10 @@ root.render(
     <BrowserView>
       <HashRouter>
         <Routes>
+          <Route exact path="/" element={<App />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/pricing" element={<Pricing />} />
-
-          <Route exact path="/" element={<App />} />
           <Route exact path="usage" element={<UseCases />} />
-          <Route path="/*" element={<p>hi</p>} />
         </Routes>
       </HashRouter>
     </BrowserView>
