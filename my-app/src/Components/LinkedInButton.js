@@ -1,7 +1,7 @@
 import LinkedInImage from "../Media/Logos/LinkedInIcon.png";
 
 export default function LinkedInButton() {
-  let linkedinpage = "https://www.linkedin.com/in/alvinjz2/";
+  let linkedinpage = "https://www.linkedin.com/company/flex-labs";
   return (
     <div>
       <a href={linkedinpage}>
