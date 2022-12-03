@@ -1,33 +1,33 @@
 import React from "react";
 import "../Styles/NavBar.css";
 import FlexLabsPng from "../Media/flexlabs.png";
-
+import { Link } from "react-router-dom";
 export default function NavBar(props) {
   return (
-    <div style={{ alignItems: "center" }}>
+    <div style={props.style}>
       <ul style={{ display: "flex", alignItems: "center" }}>
-        <li style={{ padding: "0px" }}>
-          <a href="/pricing">
+        <li style={{ margin: "0px" }}>
+          <Link to="/">
             <img style={{ width: "55px" }} src={FlexLabsPng} alt="Logo" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="NavText" href="/pricing">
+          <Link className="NavText" to="/pricing">
             {" "}
             Pricing
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="NavText" href="/contact">
+          <Link className="NavText" to="/contact">
             {" "}
             Contact
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="NavText" href="/usage">
+          <Link className="NavText" to="/usage">
             {" "}
             Use Cases
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
