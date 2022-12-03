@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.78e6900f.css",
-    "main.js": "/static/js/main.ad720ef9.js",
+    "main.css": "/static/css/main.63476c64.css",
+    "main.js": "/static/js/main.f2b02d24.js",
     "static/media/FrontPageDemo.svg": "/static/media/FrontPageDemo.f15147b23a7f11a421b4262a905aab66.svg",
     "static/media/FrontPageDemoCheck.svg": "/static/media/FrontPageDemoCheck.e57e30981a29b45e2bb55fdda3a8f77a.svg",
     "static/media/RedisTextLogo.svg": "/static/media/RedisTextLogo.fb0592e934820a74238c18869a7dd15b.svg",
     "static/media/PostgreSQLLogo.svg": "/static/media/PostgreSQLLogo.29aef66790dafa021ec4c36bbd59e370.svg",
     "index.html": "/index.html",
-    "main.78e6900f.css.map": "/static/css/main.78e6900f.css.map",
-    "main.ad720ef9.js.map": "/static/js/main.ad720ef9.js.map"
+    "main.63476c64.css.map": "/static/css/main.63476c64.css.map",
+    "main.f2b02d24.js.map": "/static/js/main.f2b02d24.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e6900f.css",
-    "static/js/main.ad720ef9.js"
+    "static/css/main.63476c64.css",
+    "static/js/main.f2b02d24.js"
   ]
 }
