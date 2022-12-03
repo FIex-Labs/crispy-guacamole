@@ -38,8 +38,8 @@ section.Product_Info_Mobile {
 .Info_Page_Mobile {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+  width: calc(100vw - (2 * var(--mobile_padding_vw)));
+  height: 150vh;
   margin: auto;
   position: relative;
   padding: var(--mobile_padding);
