@@ -18,6 +18,19 @@ li {
 .NavText {
   position: relative;
 }
+.NavTextMobile {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 4px 0px 8px 0px;
+}
 
 .NavText {
   position: relative;
