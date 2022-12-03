@@ -50,3 +50,30 @@ export function Section3HeaderDesc() {
     </p>
   );
 }
+
+// Contact Section Content
+export function ContactHeader() {
+  return <p style={{ margin: "0px 0px 0px 0px" }}> Get in touch</p>;
+}
+export function ContactDesc() {
+  return (
+    <p style={{ margin: "0px 0px 0px 0px" }}>
+      {" "}
+      Have questions? You can send us an message via email or on LinkedIn.
+    </p>
+  );
+}
+// Pricing Section Content
+export function PricingHeader() {
+  return <p style={{ margin: "0px 0px 0px 0px" }}> Pricing</p>;
+}
+export function PricingDesc() {
+  return <p style={{ margin: "0px 0px 0px 0px" }}> Everything is free.</p>;
+}
+// Use Cases Section Content
+export function UseCasesHeader() {
+  return <p style={{ margin: "0px 0px 0px 0px" }}> Sample Use Cases</p>;
+}
+export function UseCasesDesc() {
+  return <p style={{ margin: "0px 0px 0px 0px" }}> Example use cases.</p>;
+}
