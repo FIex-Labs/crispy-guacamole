@@ -4,7 +4,8 @@ import MobileLandingPage from "../MobileSections/MobileLandingSection";
 import MobileNaturalLanguage from "../MobileSections/MobileNaturalLanguage";
 import MobileAutomaticProvisioning from "../MobileSections/MobileAutomaticProvisioning";
 import MobileUseWithExisting from "../MobileSections/MobileUseWithExisting";
-export default function App() {
+
+export default function MobileApp() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
