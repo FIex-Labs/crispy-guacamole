@@ -13,11 +13,12 @@ export default function LandingPage() {
           Set up a database in minutes, using natural language.
         </p>
         <div>
-          <PillButton style={{ backgroundColor: "#87DC32" }}>
+          <PillButton link="/pricing" style={{ backgroundColor: "#87DC32" }}>
             {" "}
             Start{" "}
           </PillButton>
           <PillButton
+            link="/contact"
             style={{
               backgroundColor: "#FFD600FA",
               margin: "0px 0px 0px 20px",
