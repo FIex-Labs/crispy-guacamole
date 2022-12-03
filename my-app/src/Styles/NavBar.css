@@ -15,8 +15,8 @@ li {
   margin: 4px 10px 4px 10px;
 }
 
-// See this: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/
 .NavText {
+  position: relative;
 }
 
 .NavText {
@@ -38,7 +38,7 @@ a.NavText:hover {
 }
 
 a.NavText::before {
-  content: "";
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -47,7 +47,7 @@ a.NavText::before {
   left: 0;
   background-color: #000;
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 a.NavText:hover::before {
