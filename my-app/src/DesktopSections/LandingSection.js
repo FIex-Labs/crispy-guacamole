@@ -12,7 +12,7 @@ export default function LandingPage() {
         <p className="title_description">
           Set up a database in minutes, using natural language.
         </p>
-        <div>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <PillButton link="/pricing" style={{ backgroundColor: "#87DC32" }}>
             {" "}
             Start{" "}
