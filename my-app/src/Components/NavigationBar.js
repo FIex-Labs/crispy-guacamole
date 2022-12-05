@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/NavBar.css";
-import FlexLabsPng from "../Media/flexlabs.png";
+import FlexLabsSvg from "../Media/ArtsyFold.svg";
 import { Link } from "react-router-dom";
 export default function NavBar(props) {
   return (
@@ -8,7 +8,7 @@ export default function NavBar(props) {
       <ul style={{ display: "flex", alignItems: "center" }}>
         <li style={{ margin: "0px" }}>
           <Link to="/">
-            <img style={{ width: "55px" }} src={FlexLabsPng} alt="Logo" />
+            <img style={{ width: "50px" }} src={FlexLabsSvg} alt="Logo" />
           </Link>
         </li>
         <li>
