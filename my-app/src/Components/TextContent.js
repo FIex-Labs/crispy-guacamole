@@ -9,8 +9,9 @@ export function Section1HeaderDesc() {
     <p style={{ margin: "0px 0px 0px 0px" }}>
       {" "}
       Flex Labs will handle the complicated details that come with setting up a
-      database, such as schemas and database of choice. This leaves you with
-      more bandwidth to focus on things the that matter.
+      database. Just describe your data and use cases, and we'll generate
+      schemas. This leaves you with more bandwidth to focus on things the that
+      matter.
     </p>
   );
 }
