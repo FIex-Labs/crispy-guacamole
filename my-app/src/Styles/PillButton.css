@@ -1,18 +1,20 @@
 button.pill {
   font-family: "Inter";
   border: none;
-  color: black;
   padding: 8px 18px;
   text-align: center;
+  align-items: center;
   text-decoration: none;
   display: inline-block;
   font-size: var(--button-text);
   margin: 4px 2px;
   cursor: pointer;
-  dislay: flex;
+  display: flex;
   border-radius: 30px;
+  height: 40px;
+  font-weight: 600;
 }
 
 button.pill:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
