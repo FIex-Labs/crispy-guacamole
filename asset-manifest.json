@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94fa6992.css",
-    "main.js": "/static/js/main.a2be6142.js",
+    "main.css": "/static/css/main.7adf26d2.css",
+    "main.js": "/static/js/main.74a3c33d.js",
     "static/media/SchemaEditing.gif": "/static/media/SchemaEditing.b178f3d81b016cfb2476.gif",
     "static/media/FrontPageDemo.svg": "/static/media/FrontPageDemo.f15147b23a7f11a421b4262a905aab66.svg",
     "static/media/FrontPageDemoCheck.svg": "/static/media/FrontPageDemoCheck.e57e30981a29b45e2bb55fdda3a8f77a.svg",
@@ -12,11 +12,11 @@
     "static/media/ArtsyFold.svg": "/static/media/ArtsyFold.3edb9ecb923ddadbbc4e50b97d08891a.svg",
     "index.html": "/index.html",
     "static/media/Chevron.svg": "/static/media/Chevron.98aff2173051605bdcd87588fae40ace.svg",
-    "main.94fa6992.css.map": "/static/css/main.94fa6992.css.map",
-    "main.a2be6142.js.map": "/static/js/main.a2be6142.js.map"
+    "main.7adf26d2.css.map": "/static/css/main.7adf26d2.css.map",
+    "main.74a3c33d.js.map": "/static/js/main.74a3c33d.js.map"
   },
   "entrypoints": [
-    "static/css/main.94fa6992.css",
-    "static/js/main.a2be6142.js"
+    "static/css/main.7adf26d2.css",
+    "static/js/main.74a3c33d.js"
   ]
 }
